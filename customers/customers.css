@@ -60,22 +60,21 @@ main {
     .testimonial {
         margin: 3rem auto;
         max-width: 68rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
     }
 
-    .testimonial__list {
+/*    .testimonial__list {
         width: 80%;
         margin: auto;
-    }
+    }*/
 
     .testimonial__image-container {
         width: 66%;
-        display: inline-block;
-        vertical-align: middle;
     }
 
     .testimonial__info {
-        display: inline-block;
-        vertical-align: middle;
         width: 30%;
     }
 
